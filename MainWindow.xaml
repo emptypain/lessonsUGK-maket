@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lessons"
         mc:Ignorable="d"
-        Title="Portfolio Template" Height="1080" Width="1920">
+        Title="Portfolio Template" Height="8080" Width="1920" >
     <ScrollViewer>
         <Grid Background="Gray">
             <Grid.RowDefinitions>
@@ -50,6 +50,10 @@
 
             <Rectangle  Grid.Row="0" Fill="White" Grid.ColumnSpan="7" Margin="0 , 10 , 0 , 0"/>
             <Rectangle  Grid.Row="1" Grid.RowSpan="4" Fill="#DAE3E7" Grid.ColumnSpan="7" />
+            <Rectangle  Grid.Row="2" Grid.RowSpan="4" Fill="#DAE3E7" Grid.ColumnSpan="7" />
+            <Rectangle  Grid.Row="3" Grid.RowSpan="4" Fill="#DAE3E7" Grid.ColumnSpan="7" />
+            <Rectangle  Grid.Row="4" Grid.RowSpan="4" Fill="#DAE3E7" Grid.ColumnSpan="7" />
+            <Rectangle  Grid.Row="5" Grid.RowSpan="4" Fill="#DAE3E7" Grid.ColumnSpan="7" />
 
             <StackPanel Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0"  VerticalAlignment="Center" Margin="0,10,0,0">
 
@@ -393,7 +397,7 @@ Intro about your skills goes here. Keep the list lean and only show your primary
                 
             </StackPanel>
 
-            <StackPanel VerticalAlignment="Center" MaxHeight="400" Grid.Column="5" Grid.Row="3" Grid.RowSpan="4"  Background="White"  HorizontalAlignment="Center"   >
+            <StackPanel VerticalAlignment="Center" MaxHeight="400" Grid.Column="5" Grid.Row="2" Grid.RowSpan="4"  Background="White"  HorizontalAlignment="Center"   >
                 <StackPanel Margin="20">
                     <TextBlock Foreground="#939ea9" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" Margin="0,0,0,20">Education</TextBlock>
                     <DockPanel Margin="0,0,0,10">
@@ -410,7 +414,7 @@ Intro about your skills goes here. Keep the list lean and only show your primary
                 
             </StackPanel>
 
-            <StackPanel VerticalAlignment="Bottom" Grid.Column="5" Grid.Row="3" Grid.RowSpan="4" Background="White"  HorizontalAlignment="Center">
+            <StackPanel VerticalAlignment="Bottom" Grid.Column="5" Grid.Row="2" Grid.RowSpan="3" Background="White"  HorizontalAlignment="Center">
                 <StackPanel Margin="20">
                     <TextBlock Foreground="#939ea9" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" Margin="0,0,0,20">Languages</TextBlock>
                     <StackPanel Margin="0,0,0,20" HorizontalAlignment="Left">
@@ -429,7 +433,7 @@ Intro about your skills goes here. Keep the list lean and only show your primary
                 
             </StackPanel>
 
-            <StackPanel Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="4" Background="White" Margin="0 , 40, 0,40">
+            <StackPanel Grid.Row="5" Grid.Column="1"  Grid.ColumnSpan="4" Background="White" Margin="0 , 40, 40,40">
                 <TextBlock>ifousdjfsdfo</TextBlock>
             </StackPanel>
 
