@@ -149,7 +149,12 @@
     <Resource Include="Image\icons\quote-left.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Image\icons\twitter-white.png" />
+    <Resource Include="Image\icons\calendar.png" />
+    <Resource Include="Image\icons\download.png" />
     <Content Include="Image\icons\education.png" />
+    <Resource Include="Image\icons\headphone.png" />
+    <Resource Include="Image\icons\right-chevron.png" />
     <Resource Include="Image\icons\free-icon-ratings-227711.png" />
     <Resource Include="Image\icons\free-icon-rating-679939.png" />
     <Resource Include="Image\icons\free-icon-graduation-11772058.png" />

@@ -17,24 +17,9 @@
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
+
+
+
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
@@ -54,6 +39,8 @@
             <Rectangle  Grid.Row="3" Grid.RowSpan="4" Fill="#DAE3E7" Grid.ColumnSpan="7" />
             <Rectangle  Grid.Row="4" Grid.RowSpan="4" Fill="#DAE3E7" Grid.ColumnSpan="7" />
             <Rectangle  Grid.Row="5" Grid.RowSpan="4" Fill="#DAE3E7" Grid.ColumnSpan="7" />
+            <Rectangle  Grid.Row="6" Grid.RowSpan="4" Fill="#DAE3E7" Grid.ColumnSpan="7" />
+            <Rectangle  Grid.Row="7" Grid.RowSpan="4" Fill="#DAE3E7" Grid.ColumnSpan="7" />
 
             <StackPanel Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0"  VerticalAlignment="Center" Margin="0,10,0,0">
 
@@ -399,7 +386,7 @@ Intro about your skills goes here. Keep the list lean and only show your primary
 
             <StackPanel VerticalAlignment="Center" MaxHeight="400" Grid.Column="5" Grid.Row="2" Grid.RowSpan="4"  Background="White"  HorizontalAlignment="Center"   >
                 <StackPanel Margin="20">
-                    <TextBlock Foreground="#939ea9" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" Margin="0,0,0,20">Education</TextBlock>
+                    <TextBlock Foreground="#545e69" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" Margin="0,0,0,20">Education</TextBlock>
                     <DockPanel Margin="0,0,0,10">
                         <Image Source="./Image/icons/free-icon-graduation-11772058.png" Width="21" Height="17"/>
                         <TextBlock TextWrapping="Wrap" FontFamily="Montserrat" FontSize="16" FontWeight="DemiBold" Foreground="#778492">MSc Psychology and Computer Science</TextBlock>
@@ -416,7 +403,7 @@ Intro about your skills goes here. Keep the list lean and only show your primary
 
             <StackPanel VerticalAlignment="Bottom" Grid.Column="5" Grid.Row="2" Grid.RowSpan="3" Background="White"  HorizontalAlignment="Center">
                 <StackPanel Margin="20">
-                    <TextBlock Foreground="#939ea9" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" Margin="0,0,0,20">Languages</TextBlock>
+                    <TextBlock Foreground="#545e69" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" Margin="0,0,0,20">Languages</TextBlock>
                     <StackPanel Margin="0,0,0,20" HorizontalAlignment="Left">
                         <TextBlock FontFamily="Montserrat" FontSize="16" FontWeight="DemiBold" Foreground="#778492">English:</TextBlock>
                         <TextBlock FontFamily="Montserrat" FontSize="16" FontWeight="Light" Foreground="#778492">Native Speaker</TextBlock>
@@ -434,7 +421,200 @@ Intro about your skills goes here. Keep the list lean and only show your primary
             </StackPanel>
 
             <StackPanel Grid.Row="5" Grid.Column="1"  Grid.ColumnSpan="4" Background="White" Margin="0 , 40, 40,40">
-                <TextBlock>ifousdjfsdfo</TextBlock>
+                <StackPanel Margin="20">
+                    <TextBlock Margin="0,0,0,20" FontFamily="Montserrat" FontSize="24" Foreground="#545e69" FontWeight="Bold">Other Projects</TextBlock>
+                    <StackPanel Margin="0,0,0,30">
+                        <TextBlock Foreground="#778492" FontSize="16" FontWeight="DemiBold">Project Title Cras Lacus</TextBlock>
+                        <TextBlock TextWrapping="Wrap" FontSize="16">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</TextBlock>
+                        <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left">
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                <Image Source="/Image/icons/link-arow.png" Width="14" Height="14" Margin="0, 0, 10, 10" VerticalAlignment="Center"/>
+                                <TextBlock Foreground="#3AAA64" FontSize="16"> More on Coderwall</TextBlock>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+
+                    <StackPanel Margin="0,0,0,30">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <TextBlock Margin="0,0,10,0" VerticalAlignment="Center" Foreground="#778492" FontSize="16" FontWeight="DemiBold">Project Title Cras eget lacus</TextBlock>
+                            <Border Background="Green"  BorderThickness="2" CornerRadius="10" Padding="3">
+                                <TextBlock FontSize="12" FontWeight="Bold" FontFamily="Montserrat" Text="OpenSource" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </StackPanel>
+
+                        <TextBlock TextWrapping="Wrap" FontSize="16">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</TextBlock>
+                        <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left">
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                <Image Source="/Image/icons/link-arow.png" Width="14" Height="14" Margin="0, 0, 10, 10" VerticalAlignment="Center"/>
+                                <TextBlock Foreground="#3AAA64" FontSize="16"> More on Coderwall</TextBlock>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+
+                    <StackPanel Margin="0,0,0,30">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <TextBlock Margin="0,0,10,0" VerticalAlignment="Center" Foreground="#778492" FontSize="16" FontWeight="DemiBold">Project Title Cras Lacus</TextBlock>
+                            <Border Background="Green"  BorderThickness="2" CornerRadius="10" Padding="3">
+                                <TextBlock FontSize="12" FontWeight="Bold" FontFamily="Montserrat" Text="OpenSource" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </StackPanel>
+
+                        <TextBlock TextWrapping="Wrap" FontSize="16">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</TextBlock>
+                        <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left">
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                <Image Source="/Image/icons/link-arow.png" Width="14" Height="14" Margin="0, 0, 10, 10" VerticalAlignment="Center"/>
+                                <TextBlock Foreground="#3AAA64" FontSize="16"> More on Coderwall</TextBlock>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                    <Button Margin="0,20,0,0" Style="{StaticResource LinkBackMyProject}" HorizontalAlignment="Left">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" >
+
+                            <TextBlock VerticalAlignment="Center" FontWeight="ExtraBold" FontSize="14" FontFamily="Montserrat" >MORE ON CODERWALL</TextBlock>
+                            <Image Source="./Image/icons/right-chevron.png" Width="16" Height="18" Margin="0,0,5,0"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                
+                
+            </StackPanel>
+
+            <StackPanel Grid.Row="6" Grid.Column="1"  Grid.ColumnSpan="4" Background="White" Margin="0 , 0, 40,0">
+                <StackPanel Margin="20">
+                    <TextBlock Margin="0,0,0,20" FontFamily="Montserrat" FontSize="24" Foreground="#545e69" FontWeight="Bold">Work Experience</TextBlock>
+                    <StackPanel Margin="0,0,0,30">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                            <TextBlock Foreground="#778492" FontSize="16" FontWeight="DemiBold" Margin="0,0,5,0">Project Title Cras Lacus - </TextBlock>
+                            <TextBlock VerticalAlignment="Center" FontSize="16" Foreground="#778492">Startup Hub (2014 - Present)</TextBlock>
+                        </StackPanel>
+
+                        <TextBlock TextWrapping="Wrap" FontSize="16">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</TextBlock>
+                        
+                    </StackPanel>
+
+                    <StackPanel Margin="0,0,0,30">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                            <TextBlock Foreground="#778492" FontSize="16" FontWeight="DemiBold" Margin="0,0,5,0">Software Enginee -</TextBlock>
+                            <TextBlock VerticalAlignment="Center" FontSize="16" Foreground="#778492">Google (2013 - 2014)</TextBlock>
+                        </StackPanel>
+
+                        <TextBlock TextWrapping="Wrap" FontSize="16">Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</TextBlock>
+
+                    </StackPanel>
+
+                    <StackPanel Margin="0,0,0,30">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                            <TextBlock Foreground="#778492" FontSize="16" FontWeight="DemiBold" Margin="0,0,5,0">Software Engineer -</TextBlock>
+                            <TextBlock VerticalAlignment="Center" FontSize="16" Foreground="#778492">eBay (2012 - 2013)</TextBlock>
+                        </StackPanel>
+
+                        <TextBlock TextWrapping="Wrap" FontSize="16">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</TextBlock>
+
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Grid.Row="7" Grid.Column="1"  Grid.ColumnSpan="4" Background="White" Margin="0 , 40, 40,20">
+                <StackPanel Margin="20">
+                    <TextBlock Foreground="#545e69" FontSize="24" FontWeight="Bold" Margin="0,0,0,20">My GitHub</TextBlock>
+                    <TextBlock Margin="0,0,0,20" TextWrapping="Wrap">You can embed your GitHub contribution graph calendar using IonicaBizau's  <Span Foreground="#3AAA64"> GitHub Calendar</Span>widget.</TextBlock>
+                    <TextBlock Margin="0,0,0,20" TextWrapping="Wrap">You can also embed your GitHub activities using Casey Scarborough's  <Span Foreground="#3AAA64"> GitHub Activity Stream </Span>widget.</TextBlock>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel VerticalAlignment="Top" Grid.Column="5" Grid.Row="5"  Background="White"  Margin="16">
+                <StackPanel Margin="20">
+                    <TextBlock Margin="0,0,0,30" Foreground="#545e69" FontSize="24" FontWeight="Bold">Latest Blog Posts</TextBlock>
+                    <TextBlock TextWrapping="Wrap" FontFamily="Lato" FontSize="14">You can use Sascha Depold's <Span Foreground="#3AAA64">jQuery RSS plugin</Span> to pull in your blog post feeds.</TextBlock>
+                </StackPanel>
+                
+            </StackPanel>
+
+            <StackPanel VerticalAlignment="Center" Grid.Column="5" Grid.Row="5"  Background="White"  Margin="16">
+                <StackPanel Margin="20">
+                    <TextBlock FontFamily="Montserrat" TextWrapping="Wrap"  Margin="0,0,0,30" Foreground="#545e69" FontSize="24" FontWeight="Bold">Favourite coding music</TextBlock>
+                    <DockPanel Margin="0,0,0,10">
+                        <Image Source="./Image/icons/headphone.png" Width="15" Height="17" Margin="0,0,5,0"/>
+                        <TextBlock Foreground="#778492" >Etiam hendrerit urna nunc</TextBlock>
+                    </DockPanel>
+                    <DockPanel Margin="0,0,0,10">
+                        <Image Source="./Image/icons/headphone.png" Width="15" Height="17" Margin="0,0,5,0"/>
+                        <TextBlock Foreground="#778492" >Ut sollicitudin in mauris non auctor</TextBlock>
+                    </DockPanel>
+                    <DockPanel Margin="0,0,0,10">
+                        <Image Source="./Image/icons/headphone.png" Width="15" Height="17" Margin="0,0,5,0"/>
+                        <TextBlock Foreground="#778492" >Etiam hendrerit urna nunc</TextBlock>
+                    </DockPanel>
+                    <DockPanel Margin="0,0,0,10">
+                        <Image Source="./Image/icons/headphone.png" Width="15" Height="17" Margin="0,0,5,0"/>
+                        <TextBlock Foreground="#778492" >Duis et felis bibendum</TextBlock>
+                    </DockPanel>
+                </StackPanel>
+            </StackPanel>
+            
+            
+            <StackPanel VerticalAlignment="Top" Grid.Column="5" Grid.Row="6"   Background="White"  Margin="16">
+                <StackPanel Margin="20">
+                    <TextBlock FontFamily="Montserrat" TextWrapping="Wrap"  Margin="0,0,0,30" Foreground="#545e69" FontSize="24" FontWeight="Bold">Conferences</TextBlock>
+                    <DockPanel Margin="0,0,0,10">
+                        <Image Source="./Image/icons/calendar.png" Width="15" Height="17" Margin="0,0,5,0"/>
+                        <TextBlock Foreground="#778492" >WWDC 2014 (San Francisco)</TextBlock>
+                    </DockPanel>
+                    <DockPanel Margin="0,0,0,10">
+                        <Image Source="./Image/icons/calendar.png" Width="15" Height="17" Margin="0,0,5,0"/>
+                        <TextBlock Foreground="#778492" > Hive (Seattle)</TextBlock>
+                    </DockPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel VerticalAlignment="Center" Grid.Column="5" Grid.Row="6" Grid.RowSpan="2"  Background="White"  Margin="16">
+                <StackPanel Margin="20">
+                    <TextBlock FontFamily="Montserrat" TextWrapping="Wrap"  Margin="0,0,0,30" Foreground="#545e69" FontSize="24" FontWeight="Bold">Credits</TextBlock>
+                    <DockPanel Margin="0,0,0,10">
+                        <Image Source="./Image/icons/link-arow.png" Width="15" Height="17" Margin="0,0,5,0"/>
+                        <TextBlock Foreground="#778492" >Bootstrap</TextBlock>
+                    </DockPanel>
+                    <DockPanel Margin="0,0,0,10">
+                        <Image Source="./Image/icons/link-arow.png" Width="15" Height="17" Margin="0,0,5,0"/>
+                        <TextBlock Foreground="#778492" > FontAwesome</TextBlock>
+                    </DockPanel>
+                    <DockPanel Margin="0,0,0,10">
+                        <Image Source="./Image/icons/link-arow.png" Width="15" Height="17" Margin="0,0,5,0"/>
+                        <TextBlock Foreground="#778492" > jQuery</TextBlock>
+                    </DockPanel>
+                    <DockPanel Margin="0,0,0,10">
+                        <Image Source="./Image/icons/link-arow.png" Width="15" Height="17" Margin="0,0,5,0"/>
+                        <TextBlock Foreground="#778492" >  GitHub Calendar Plugin</TextBlock>
+                    </DockPanel>
+                    <DockPanel Margin="0,0,0,10">
+                        <Image Source="./Image/icons/link-arow.png" Width="15" Height="17" Margin="0,0,5,0"/>
+                        <TextBlock Foreground="#778492" >   GitHub Activity Stream</TextBlock>
+                    </DockPanel>
+                    <DockPanel Margin="0,0,0,10">
+                        <Image Source="./Image/icons/link-arow.png" Width="15" Height="17" Margin="0,0,5,0"/>
+                        <TextBlock Foreground="#778492" >  jQuery RSS</TextBlock>
+                    </DockPanel>
+                    <TextBlock Margin="0,0,5,0">Profile image:<Span Foreground="#778492">Ben Smith</Span></TextBlock>
+                    <TextBlock Margin="0,0,5,0">iPad and iPhone mocks:<Span Foreground="#778492">Regy Perlera</Span></TextBlock>
+                    <Border Height="1" Background="#778492" Margin="0, 20 ,0 ,0" HorizontalAlignment="Stretch"/>
+                    <TextBlock TextWrapping="Wrap"  Margin="0,0,0,10"> This responsive portfolio template is handcrafted by UX designer <Span Foreground="#3AAA64">Xiaoying Riley</Span> at <Span Foreground="#3AAA64"> 3rd Wave Media</Span> for developers and is <Span FontWeight="Bold">FREE</Span>under the <Span TextDecorations="Underline" Foreground="#778492"> Creative Commons Attribution 3.0 License</Span></TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"> We will improve or add new features to this template based on users' feedback so follow us on twitter to get notified when a new version is out!</TextBlock>
+                    <Button Margin="0,20,0,20" Style="{StaticResource LinkBackMyProject}" HorizontalAlignment="Left">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" >
+                            <Image Source="./Image/icons/twitter-white.png" Width="16" Height="18" Margin="0,0,5,0"/>
+                            <TextBlock VerticalAlignment="Center" FontWeight="ExtraBold" FontSize="14" FontFamily="Montserrat" >FALLOW US</TextBlock>
+                            
+                        </StackPanel>
+                    </Button>
+                    <Button  Style="{StaticResource LinkContactMe}" HorizontalAlignment="Left">
+                        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal" >
+                            <Image Source="./Image/icons/download.png" Width="25" Height="20"  Margin="0, 0, 10, 0"/>
+                            <TextBlock FontWeight="Bold" FontFamily="'Montserrat', arial, sans-serif" VerticalAlignment="Center">I WANT TO DOWNLOAD</TextBlock>
+                        </StackPanel>
+
+
+                    </Button>
+                </StackPanel>
             </StackPanel>
 
 
